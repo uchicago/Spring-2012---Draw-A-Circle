@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class DoodleView;
+
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) DoodleView* doodleView;
 
 @end
